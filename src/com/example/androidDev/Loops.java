@@ -33,7 +33,7 @@ public class Loops {
 //        System.out.println("your name: " + name);
 
         Random rand = new Random();
-        int num = rand.nextInt(100) + 1;
+        int num = rand.nextInt(100) + 1 ;
         System.out.println(num);
     }
 }

@@ -57,7 +57,8 @@ public class Main {
         */
 
 //        new RelationalOperators();
-        new Loops();
-
+//        new Loops();
+//        new Arrays();
+        new Contacts();
     }
 }
