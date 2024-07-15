@@ -35,6 +35,7 @@ public class RelationalOperators {
 //            System.out.println("A is less than 3");
 //        System.out.println("continue...");
 
+        /*
         switch (a) {
             case 1:
                 System.out.println("A is one");
@@ -49,7 +50,7 @@ public class RelationalOperators {
                 System.out.println("A is zero");
                 break;
         }
-
+*/
     }
 
 }

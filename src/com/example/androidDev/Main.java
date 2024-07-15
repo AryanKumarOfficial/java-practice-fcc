@@ -56,7 +56,8 @@ public class Main {
 
         */
 
-        new RelationalOperators();
+//        new RelationalOperators();
+        new Loops();
 
     }
 }
