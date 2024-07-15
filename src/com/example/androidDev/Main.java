@@ -29,7 +29,7 @@ public class Main {
      */
 
         // operators
-
+/*
         int a = 6;
         int b = 2;
         int add = a + b;
@@ -47,12 +47,16 @@ public class Main {
         int rem = a % 4;
         System.out.println(rem);
 
-        // concatenationōōōō
+        // concatenation
 
         String firstName = "aryan ";
         String lastName = "kumar";
         String fullName = firstName + lastName;
         System.out.println(fullName);
+
+        */
+
+        new RelationalOperators();
 
     }
 }
