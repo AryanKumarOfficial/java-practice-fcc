@@ -23,6 +23,10 @@ public class Bird extends Animal {
 
     }
 
+    public void fly(int speed) {
+        System.out.println("flying with speed " + speed);
+    }
+
     @Override
     public void eat(String food) {
         System.out.println("chewing " + food);

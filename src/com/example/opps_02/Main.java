@@ -5,7 +5,7 @@ public class Main {
         Bird phoenix = new Bird("Nina", "gray", 2, true, 2);
         System.out.println(phoenix.getName());
         System.out.println(phoenix.getWings());
-        phoenix.fly();
+        phoenix.fly(100);
         phoenix.eat("beans ");
     }
 }
