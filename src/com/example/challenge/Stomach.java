@@ -8,13 +8,7 @@ public class Stomach extends Organ {
         this.isEmpty = isEmpty;
     }
 
-    public boolean isEmpty() {
-        return isEmpty;
-    }
 
-    public void setEmpty(boolean empty) {
-        isEmpty = empty;
-    }
 
     @Override
     public void getDetails() {

@@ -1,7 +1,7 @@
 package com.example.challenge;
 
 public class Eye extends Organ {
-    private String color;
+    private final String color;
     private boolean isOpened;
 
     public Eye(String name, String medicalCondition, String color, boolean isOpened) {
@@ -14,9 +14,6 @@ public class Eye extends Organ {
         return color;
     }
 
-    public void setColor(String color) {
-        this.color = color;
-    }
 
     public boolean isOpened() {
         return isOpened;
@@ -29,7 +26,7 @@ public class Eye extends Organ {
     @Override
     public void getDetails() {
         super.getDetails();
-        System.out.println("Color: " + this.color);
+        System.out.println("Color: " + this.getColor());
     }
 
     public void open() {
